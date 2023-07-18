@@ -1,0 +1,1 @@
+clang newlisp.c nl-symbol.c nl-math.c nl-list.c nl-liststr.c nl-string.c nl-filesys.c nl-sock.c nl-import.c nl-xml-json.c nl-web.c nl-matrix.c nl-debug.c nl-utf8.c pcre.c -DLINUX -fPIC -m64 -g -DREADLINE -DSUPPORT_UTF8 -DNEWLISP64 -DLINUX -DFFI -I. -m64 -march=native -O3 -lm -lffi -lreadline -flto -o newlisp
